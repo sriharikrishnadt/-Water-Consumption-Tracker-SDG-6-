@@ -50,14 +50,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load dataset
-data = pd.read_csv("sdg_data.csv")
-
+data = pd.read_csv(r"C:\Users\admin\Desktop\Project\SDG-Progress-Analyzer\sdg_data.csv")
 print("\nSDG Dataset:\n")
 print(data)
 
 # Select country
-country = input("\nEnter country name (India/USA/Germany): ")
-
+country = input("\nEnter country name (India/USA/Germany/Japan): ").title()
 # Filter data
 country_data = data[data["Country"] == country]
 
@@ -74,8 +72,6 @@ else:
     plt.ylabel("Score")
 
     plt.xticks(rotation=30)
-
-    plt.tight_layout()
 
     plt.show()
 ```
@@ -95,9 +91,10 @@ python sdg_analyzer.py
 Enter country name (India/USA/Germany): India
 ```
 ## Output:
+<img width="1164" height="393" alt="image" src="https://github.com/user-attachments/assets/b6560a28-6098-40c1-95c7-772f09063821" />
+
 <img width="1919" height="1138" alt="image" src="https://github.com/user-attachments/assets/8edd5361-e29c-4a0c-842a-1f442adae886" />
 
-<img width="996" height="706" alt="image" src="https://github.com/user-attachments/assets/9454e36d-2d36-474c-85e9-b11910131998" />
 
 ## Result:
 Thus the project created is executed using VS code.
