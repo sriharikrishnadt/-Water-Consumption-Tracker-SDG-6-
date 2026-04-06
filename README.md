@@ -1,4 +1,4 @@
-# 📊 SDG Progress Analyzer
+# 📊 Data Analytics for Sustainable Development Goals
 
 A simple Python data visualization project that analyzes Sustainable Development Goals (SDG) progress of different countries using Pandas and Matplotlib.
 
