@@ -95,6 +95,8 @@ python sdg_analyzer.py
 Enter country name (India/USA/Germany): India
 ```
 ## Output:
+<img width="1919" height="1138" alt="image" src="https://github.com/user-attachments/assets/8edd5361-e29c-4a0c-842a-1f442adae886" />
+
 <img width="996" height="706" alt="image" src="https://github.com/user-attachments/assets/9454e36d-2d36-474c-85e9-b11910131998" />
 
 ## Result:
